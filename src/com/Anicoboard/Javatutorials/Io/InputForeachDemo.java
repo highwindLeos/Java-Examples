@@ -4,7 +4,7 @@ class InputForeachDemo{
 	
     public static void main(String[] args){
     	
-    	for(String e : args){
+    	for(String e : args){ //foreach ¹®
             System.out.println(e);
         }
         

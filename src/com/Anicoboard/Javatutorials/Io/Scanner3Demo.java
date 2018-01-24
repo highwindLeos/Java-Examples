@@ -19,7 +19,7 @@ public class Scanner3Demo {
 	            
 	        } catch(FileNotFoundException e){
 	        	
-	            e.printStackTrace();
+	            e.printStackTrace(); 
 	            
 	        }
 	}
