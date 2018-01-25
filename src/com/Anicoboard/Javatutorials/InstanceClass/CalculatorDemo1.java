@@ -19,7 +19,7 @@ class Calculator {
    }
 }
 
-public class CalculatorDemo {
+public class CalculatorDemo1 {
 
    public static void main(String[] args) {
 
