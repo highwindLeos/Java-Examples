@@ -1,8 +1,10 @@
 package com.Anicoboard.Javatutorials.InstanceClass;
  
 class C1{
+	
     static int static_variable = 1;
     int instance_variable = 2;
+    
     static void static_static(){
         System.out.println(static_variable);
     }
@@ -17,6 +19,7 @@ class C1{
     void instance_instance(){        
         System.out.println(instance_variable);
     }
+    
 }
 public class ClassMemberDemo {  
     public static void main(String[] args) {
