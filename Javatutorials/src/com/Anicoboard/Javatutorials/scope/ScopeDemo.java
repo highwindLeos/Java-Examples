@@ -1,10 +1,10 @@
 package com.Anicoboard.Javatutorials.scope;
 
 public class ScopeDemo {
-	static int i; // ì „ì—­ë³€ìˆ˜.
+	static int i; // Àü¿ªº¯¼ö
 
 	static void a() {
-        int i = 0; // ì§€ì—­ë³€ìˆ˜
+        int i = 0; // Áö¿ªº¯¼ö
     }
  
     public static void main(String[] args) {
