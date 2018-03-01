@@ -23,8 +23,8 @@ public class CalculatorDemo1 {
 
    public static void main(String[] args) {
 
-       Calculator c1 = new Calculator();
-       System.out.println(c1.PI);
+       Calculator c1 = new Calculator(); //Class 를 객체로 생성. (c1 인스턴스)
+       System.out.println(c1.PI); // 객체를 통해 Class 에 정의된 변수에 접근하였다.
 
        Calculator c2 = new Calculator();
        System.out.println(c2.PI);

@@ -7,7 +7,7 @@ public class BreakDemo {
 		
 		for( int i = 0; i < 10; i++) {
 			
-			if (i == 5) { break; } 
+			if (i == 5) { break; }  // 증가중에 5의 조건이 되면 반복문을 중단.
 			
 			System.out.println("Coding working days" + i);
 		}

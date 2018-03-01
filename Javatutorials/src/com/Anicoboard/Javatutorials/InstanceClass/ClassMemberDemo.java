@@ -9,7 +9,7 @@ class C1{
         System.out.println(static_variable);
     }
     static void static_instance(){
-        // 클래스 메소드에서는 인스턴스 변수에 접근 할 수 없다. (comfile 이 안됨)
+        // 클래스 메소드에서는 인스턴스 변수에 접근 할 수 없다. (compile 이 안됨)
         //System.out.println(instance_variable);
     }
     void instance_static(){
