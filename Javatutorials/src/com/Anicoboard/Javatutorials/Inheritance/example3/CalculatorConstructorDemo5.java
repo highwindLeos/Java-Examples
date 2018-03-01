@@ -36,9 +36,11 @@ class SubstractionableCalculator1 extends Calculator1 { // Calculator1 class ¸¦ 
  
 public class CalculatorConstructorDemo5 {
     public static void main(String[] args) {
-        SubstractionableCalculator1 c1 = new SubstractionableCalculator1(20, 10);
-        c1.sum();
-        c1.avg();
-        c1.substract();
+    	
+	        SubstractionableCalculator1 c1 = new SubstractionableCalculator1(20, 10);
+	        c1.sum();
+	        c1.avg();
+	        c1.substract();
+	        
     }
 }

@@ -12,6 +12,12 @@ public class ArrayLoopDemo {
             System.out.println(member + " 가 상담을 받았습니다");
             
         }
+        
+        for (String member : members) {
+        	
+            System.out.println(member + " 가 상담을 받았습니다 (foreach)");
+            
+        }
 
 	}
 

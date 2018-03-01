@@ -13,7 +13,7 @@ public class Lotto2 {
 			Lotto[i] = (int)(Math.random()*45)+1; // Random 함수 를 이용한 난수 (1~45)
 	
 			for(int j = i - 1; j >= 0; j--){
-				if(Lotto[i]==Lotto[j]){
+				if(Lotto[i] == Lotto[j]){
 					i--;
 					break;
 				}

@@ -9,14 +9,14 @@ public class SwichDemo {
 		
 		switch(1){
 		
-		case 1:
-			System.out.println("one");
-			
-		case 2:
-			System.out.println("two");
-			
-		case 3:
-			System.out.println("three");
+			case 1:
+				System.out.println("one");
+				
+			case 2:
+				System.out.println("two");
+				
+			case 3:
+				System.out.println("three");
 		
 		}
 		
@@ -24,14 +24,14 @@ public class SwichDemo {
 		
 		switch(2){
 		
-		case 1:
-			System.out.println("one");
-			
-		case 2:
-			System.out.println("two");
-			
-		case 3:
-			System.out.println("three");
+			case 1:
+				System.out.println("one");
+				
+			case 2:
+				System.out.println("two");
+				
+			case 3:
+				System.out.println("three");
 		
 		}
 		
@@ -39,14 +39,14 @@ public class SwichDemo {
 		
 		switch(3){
 		
-		case 1:
-			System.out.println("one");
-			
-		case 2:
-			System.out.println("two");
-			
-		case 3:
-			System.out.println("three");
+			case 1:
+				System.out.println("one");
+				
+			case 2:
+				System.out.println("two");
+				
+			case 3:
+				System.out.println("three");
 		
 		}
 		
@@ -54,19 +54,19 @@ public class SwichDemo {
 		
 		switch(4){
 		
-		case 1:
-			System.out.println("one");
-			break; // 실행하고 빠져나옴
+			case 1:
+				System.out.println("one");
+				break; // 실행하고 빠져나옴
+				
+			case 2:
+				System.out.println("two");
+				break;
+	
+			case 3:
+				System.out.println("three");
+				break;
 			
-		case 2:
-			System.out.println("two");
-			break;
-
-		case 3:
-			System.out.println("three");
-			break;
-			
-		default: // 조건에 맞는 값이 없을 때 기본적으로 실행
+			default: // 조건에 맞는 값이 없을 때 기본적으로 실행
 			System.out.println("default");
 
 		}
