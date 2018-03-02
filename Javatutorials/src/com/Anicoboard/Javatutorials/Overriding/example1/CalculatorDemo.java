@@ -30,7 +30,9 @@ class SubstractionableCalculator extends Calculator {
  
 public class CalculatorDemo {
     public static void main(String[] args) {
+    	
         SubstractionableCalculator c1 = new SubstractionableCalculator();
+        
         c1.setOprands(20, 10);	
         c1.sum(); // 해당 메소드는 오버라이딩된 함수로 호출되게 된다.
         c1.avg();

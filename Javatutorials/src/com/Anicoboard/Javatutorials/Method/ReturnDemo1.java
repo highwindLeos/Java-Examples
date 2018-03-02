@@ -4,11 +4,11 @@ public class ReturnDemo1 {
 
 	    public static int one() {
 	    	
-	        return 1;
+	        return 1; //return 을 만나면 바로 값을 반환하고 함수가 종료됨.
 	        
-	        return 2; // 문법 에러로 컴파일이 되지 않음 (첫 리턴에서 함수가 종료되었기 때문)
+	       // return 2;  // 문법 에러로 컴파일이 되지 않음 (첫 리턴에서 함수가 종료되었기 때문)
 	        
-	        return 3;
+	       // return 3;
 	        
 	    }
 	 

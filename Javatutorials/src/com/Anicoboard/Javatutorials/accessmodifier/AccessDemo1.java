@@ -14,7 +14,9 @@ class A {
 public class AccessDemo1 {
 	
     public static void main(String[] args) {
+    	
         A a = new A();
+        
         System.out.println(a.y());
        // System.out.println(a.z()); // 이 코드는 오류가 발생한다. private 로 지정된 Class 이기 때문에 접근이 되지 않는다.
         System.out.println(a.x());

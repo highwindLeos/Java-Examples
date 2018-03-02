@@ -6,6 +6,4 @@ class item {
 
 public class ClasspathDemo {
 
-	
-
 }

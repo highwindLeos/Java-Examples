@@ -15,7 +15,7 @@ public class Scanner2Demo {
             int i = sc.nextInt();
         	int j = sc.nextInt();
 
-            System.out.println( i * j); 
+            System.out.println( i * j ); 
         	}
         	sc.close();
         
