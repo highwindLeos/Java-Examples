@@ -1,4 +1,4 @@
-package com.Aniocoboard.Javatutorials.Lotto;
+package com.Anicoboard.Javatutorials.Lotto;
 
 public class Lotto1 {
 
