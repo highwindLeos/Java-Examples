@@ -12,8 +12,8 @@ public class Scanner3Demo {
 			 
 	            File file = new File("out.txt"); // 파일객체를 변수에 담는다.
 	            Scanner sc = new Scanner(file); // 입력값으로 file 객체 변수를 입력한다.
-	            while(sc.hasNextInt()) {
-	                System.out.println("파일의 내용은 " + sc.nextInt() + " 입니다." ); 
+	            while(sc.hasNext()) {
+	                System.out.println("파일의 내용은 " + sc.next() + " 입니다." ); 
 	            }
 	            sc.close();
 	            
